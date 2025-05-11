@@ -1,0 +1,176 @@
+header{
+    background: linear-gradient(45deg, #e0341686 0% 50%, #e9b21b85 50% 100%) , url(../images/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg);
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px;
+}
+header .logo{
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+}
+header nav{
+    gap: 1rem;
+    font-weight: 500;
+}
+header nav a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-f);
+    margin-top: 1px;
+    transition: .3s ease;
+}
+header nav a:hover::after{
+
+    width: 100%;
+    background-color: #a1f800;
+
+}
+header nav a{
+    transition: .3s ease;
+}
+header nav a:hover{
+    color: #a1f800;
+}
+header .welcome{
+    padding-top: 6rem;
+}
+header .welcome h1{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 8.5rem;
+    font-weight: 600;
+}
+header .welcome .separate{
+    height: 4px;
+    width: 10%;
+    background-color: var(--color-f);
+    margin: 3rem 0;
+}
+header .welcome > a{
+    padding: 10px 20px;
+    border: 2px solid var(--color-f);
+    text-transform: uppercase;
+    transition: .4s ease-in-out;
+    margin-bottom: 6rem;
+}
+header .welcome > a:hover{
+    color: #a1f800;
+    border-color: #a1f800;
+}
+header .welcome .welcome-footer .line{ 
+    height: 4px;
+    background-color: var(--color-f);
+    position: relative;
+
+}
+header .welcome .welcome-footer .line::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: #a1f800;
+    transition: .3s ease-out;
+}
+header .welcome .welcome-footer a:hover .line::after{
+    width: 80%;
+}
+header .welcome .welcome-footer{
+    gap: 1rem;
+}
+header .welcome .welcome-footer h4{
+    font-weight: 800;
+}
+header .welcome .welcome-footer p{
+    font-weight: 300;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+section.about .images{
+    gap: 1.5rem;
+}
+section.about .images .item-bg{
+    width: calc(100%/3);
+    height: 27rem;
+    background: #fc7b6a;
+    margin-bottom: 80px;
+}
+section.about .images .item-bg:nth-child(1) .item-img{
+    background-image: url(../images/brooke-balentine-dWrxfxfBrcw-unsplash.jpg);
+}
+section.about .images .item-bg:nth-child(2) .item-img{
+    background-image: url(../images/marsumilae-F1LCGaLtwek-unsplash.jpg);
+}
+section.about .images .item-bg:nth-child(3) .item-img{
+    background-image: url(../images/sehoon-ye-pp_7zvfCoG0-unsplash.jpg);
+}
+section.about .images .item-img{
+    background-size: cover;
+    transition: .3s ease-out;
+}
+section.about .images .item-fg{
+    background: linear-gradient(45deg, #e0341686, #e9b21b85);
+    gap: 1.5rem;
+    color: var(--color-f);
+    font-size: 3rem;
+    font-weight: 600;
+    opacity: 0;
+    transition: .3s ease-out;
+}
+section.about .images .item-bg:hover .item-img{
+    transform: translate(-1rem, -1rem);
+}
+section.about .images .item-bg:hover .item-fg{
+    opacity: 1;
+}
+section.stats{
+    background-color: #fc7b6a;
+}
+section.stats .metric{
+    padding: 3rem 0;
+    border-left: 1px solid var(--color-f);
+    color: var(--color-f);
+}
+section.stats .metric:last-child{
+    border-right: 1px solid var(--color-f);
+}
+section.stats .metric h3{
+    font-weight: 600;
+}
+section.stats .metric p{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+section.services .wrapper{
+    flex-wrap: wrap;
+}
+section.services .wrapper .service{
+    width: 33%;
+    height: 100px;
+}
+section.services .wrapper .separate{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    margin: 40px 0;
+}
+section.services .icon{
+    font-size: 40px;
+    color: #fc7b6a;
+    padding-right: 16px;
+}
+section.services p{
+    width: 70%;
+    font-size: 1.25rem;
+    color: #555;
+}
+
+section.services .text h4{
+    color: #555;
+    font-weight: 600;
+}
+
+
+
