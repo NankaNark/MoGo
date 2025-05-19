@@ -1,13 +1,19 @@
+body{
+    overflow-x: hidden;
+}
 .container{
     width: 1140px;
     margin: 0 auto;
 }
+.w10{width: 10%;}
 .w20{width: 20%;}
 .w30{width: 30%;}
 .w25{width: 25%;}
 .w40{width: 40%;}
 .w50{width: 50%;}
 .w75{width: 75%;}
+.w80{width: 80%;}
+.w90{width: 90%;}
 .w100{width: 100%;}
 .h100{height: 100%;}
 
@@ -53,7 +59,7 @@ section .title .separate{
     font-weight: 800;
     width: 10%;
     height: 4px;
-    background-color: #a1f800;
+    background-color: #44df15;
 }
 section .title p{
     width: 60%;
